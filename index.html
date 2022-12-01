@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Faiza</title> <!--Название страницы -->
+    <link rel="shortcut icon" href="https://i.pinimg.com/236x/d9/30/28/d93028130e0d88688bb27cc7ae6d5271.jpg" type="image/x-icon"> <!--Иконка сайта-->
+
+</head>
+
+</p>
+<body style="background-color: pink;" text = "blue" vlink = "black" alink = "red">
+    <p></p>
+    <button><img src="https://media.wired.co.uk/photos/606d9a3ba876dd2203a639aa/3:2/pass/wired-uk-google-watching.jpg"  alt="google" width="200px" height="200px"/> </button>
+    <!--(Src)Ссылка фотки, в случае ее сломанности его описание с помощью (alt)-->
+    <br> <!--Перевод строки--> 
+
+    <ul> <!--Маркированный список-->
+        <li>Элемент 1</li>
+        <li>Элемент 2</li>
+        <li>Элемент 3</li>
+    </ul>
+
+    <ol> <!--Нумерованный список-->
+        <li>Хлеб
+        <li>Молоко
+        <li>Сахар
+    </ol>
+
+    <!--Назначение ссылки-->
+    <br> <a href="https://www.youtube.com/">Ютубчик</a>  
+ 
+    <!--Заголовок 1 уровня(есть до 6)-->
+    <!--Чем уровень больше, тем толщина шрифта тоньше-->
+    <h1>Заголовок 1</h1> 
+    <h4>Заголовок 4</h4> 
+    <h6>Заголовк 6</h6>
+
+    <p>Абзац</p>
+    <section>Разделы</section>
+    <blockquote>Длинные цитаты</blockquote>
+    <br>  <em>Выделенные слова(Курсив)</em>
+    <br>  <strong>Важные слова</strong>
+    <br>  <abbr>Аббревиатуры</abbr>
+    <br>  <q>Короткие цитаты</q>
+    <br>  <p>Откуда ты?<strong>Я родом с Африки,</strong><q>А ты?</q></p>
+    <br>  <del>Помечает текст зачеркнутым</del>
+    <br>  <s>Перечеркнутый текст</s>
+    <br>  <ins>Подчеркивает текст</ins>
+    <br>  <u>Подчеркивает</u>
+    <br>  <mark>Выделяет желтым маркером</mark>
+    <br>  <i>Курсив</i>
+    <br>  <small>Текст маленьким</small>
+    <sub>Подстрочное начертание символов</sub> 
+    <sup>Надстрочное начертание символов</sup>
+    <br>  <cite>Оформление цитат</cite>
+    <pre>Неформальный текст</pre>
+    <dd>Определение понятия</dd>
+    У него дома есть <abbr title="Compact Disc">CD</abbr>
+
+
+    <!--Размещает горизонтальную линию-->
+    <hr color = "white" size = 10 width="1000">
+
+    <textarea>Большие поля для ввода текста</textarea>
+    
+    
+    <form oninput="rectangle_square.value=parseInt(rectangle_length.value)*parseInt(rectangle_width.value);">
+        <p>Вычисление площади прямоугольника</p>
+        Длина: <input type="number" name="rectangle_length" id="rectangle_length"><br><br>
+        Ширина: <input type="number" name="rectangle_width" id="rectangle_width"><br><br>
+        Площадь: <output name="rectangle_square" for="rectangle_length rectangle_width"></output>
+      </form>
+
+
+    
+
+<!--Вставить видео-->
+<br><iframe 
+src="https://p1.oc.kg:8082/video/f/hd2/Cruella_hd.mp4?an=1"
+title="Movie"
+frameborder="0"
+allowfullscreen
+>
+</iframe>
+
+<!-- тег инпут и его разновидности -->
+    <input type="button" value="жми"/>
+    <input type="checkbox"/>
+    <input type="radio"/>
+    <input type="text" placeholder="Enter your name">
+    <input type="password" placeholder="Enter your password"/>
+    <input type="file"/>
+    <input type="range"/>
+    <input type="time"/>
+    <input type='number'/>
+    
+    <!-- тег баттон это кнопка -->
+    <button>Поиск</button>
+    <!-- дроп даун (выборка) -->
+    <select> 
+    <option>Чай</option>
+    <option>Кофе</option>
+    <option>Газировка</option>
+    </select>
+
+    <!--Списки описаний-->
+    <d1>
+        <dt>Байкал</dt>
+        <dd>Самое глубокое озеро</dd>
+        <dt>HTML</dt>
+        <dd>Язык разметки для создания веб-страниц</dd>
+    </d1>
+
+
+<!-- Таблица-->
+<table>
+    <thead>
+        <tr>
+            <th>Посуда</th>
+            <th>Цена</th>
+        </tr>
+    </thead>
+    <tfoot>
+        <tr>
+            <th>Посуда</th>
+            <th>Цена</th>
+        </tr>
+    </tfoot>
+    <tbody>
+        <tr>
+            <td>Стакан</td>
+            <td>170 руб</td>
+        </tr>
+        <tr>
+            <td>Тарелка</td>
+            <td>200 руб</td>
+        </tr>
+        <tr> 
+            <td>Вилки</td>
+            <td>50 руб</td>
+        </tr>
+    </tbody>
+</table>
+
+<table>
+    <tr>
+        <th colspan="2">Тетради</th>
+    </tr>
+    <tr>
+        <th rowspan="3">В клетку</th>
+        <td>Математика</td>
+    </tr>
+    <tr>
+        <td>История</td>
+    </tr>
+        <td>Биология</td>
+    </tr>
+</table>
+
+<footer>
+<p>Honda 2013 | Honda 2022 </p>
+    <a>
+        <img src="http://sun9-43.userapi.com/impg/c858028/v858028723/152ab9/ZP6aUBvhT0k.jpg?size=1024x768&quality=96&sign=7792d20032ec49212285d225121d28a5&type=album" alt="Логотип" weight="200" height="200">
+    </a>
+        <em>Honda</em>
+<ul>
+    <li>
+        <a href="contact.html">Контакты</a>
+    </li>
+</ul>
+</footer>
+
+
+<!--placeholder
+Текстовые поля могут отображать подсказывающий текст,
+ который исчезнет, как только будет введен некоторый текст.-->
+<input type="text" placeholder="Введите ваше имя">
+<!--<label>
+Так как элементы формы сами по себе не очень описательны, им, 
+как правило, предшествует текстовая метка.-->
+<label>Email</label>
+<input type="email">
+
+<!--Флажки — это элементы формы, которые имеют только два состояния:
+включено или выключено. Они в основном позволяют пользователю сказать:
+«Да» или «Нет» для чего-то.-->
+<label>
+    <input type="checkbox"> Запомнить меня
+</label>
+<label>
+    <input type="checkbox"> Я согласна(-ен) с условиями
+</label>
+
+
+
+<!--Вы можете предоставить пользователю список вариантов 
+на выбор с помощью переключателей.-->
+<p>
+<label>Семейное положение</label>
+<label>
+    <input type="radio" name="status">
+    Холост
+</label>
+<label>
+    <input type="radio" name="status">
+    Женат
+</label>
+<label>
+    <input type="radio" name="status">
+    Вдовец
+</label>
+<label>
+    <input type="radio" name="status">
+    Разведен
+</label>
+
+</p>
+</p>
+</p>
+</body>
+</html>
+</html>
